@@ -1,5 +1,6 @@
 # goutf16
 * This library provides the method encode string to uint16 array and the method decode uint16 array to string. What's more, this library includes some simple funtion like ```Count```,```Index```,```Join```of uint16 array.
+* The encode and decode method is efficient. And the process just need one memory allocation.
 ## Encode
 * encode string to uint16 array like this.
 ```go
